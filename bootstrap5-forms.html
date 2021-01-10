@@ -9,41 +9,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
-      Tabales
+      Forms
     </title>
     <link href="bootstrap-5/css/bootstrap.min.css" rel="stylesheet">
- 
+    <style type="text/css">
+   
+    </style>
   </head>
   <body>
-    <h1>Tabales</h1>
-    <div class="container-fluid">
-      
-      <table class="table">
-        <tr><th>Phone Mark</th><th>Model</th><th>storage</th></tr>
-        <tr><td>SAMSUNG</td><td>A10</td><td>68 GB</td></tr>
-        <tr><td>SAMSUNG</td><td>A20</td><td>68 GB</td></tr>
-        <tr><td>SAMSUNG</td><td>A128</td><td>128 GB</td></tr>
-        <tr><td>SAMSUNG</td><td>A128</td><td>128 GB</td></tr>
-      </table>
-      <table class="table table-striped table-hover table-bordered text-center">
-        <tr><th>Phone Mark</th><th>Model</th><th>storage</th></tr>
-        <tr><td>SAMSUNG</td><td>A10</td><td>68 GB</td></tr>
-        <tr><td>SAMSUNG</td><td>A20</td><td>68 GB</td></tr>
-        <tr><td>SAMSUNG</td><td>A128</td><td>128 GB</td></tr>
-        <tr><td>SAMSUNG</td><td>A128</td><td>128 GB</td></tr>
-      </table>
-      
-      <!-- tabale-responsive didnt work! -->
-        <div class="table-responsive">
-          <table class="table table-striped table-hover table-bordered text-center">
-            <tr><th>Phone Mark</th><th>Model</th><th>storage</th></tr>
-            <tr><td>SAMSUNG SAMSUNG SAMSUNG SAMSUNG SAMSUNG SAMSUNG SAMSUNG SAMSUNG SAMSUNG SAMSUNG</td><td>A10</td><td>68 GB</td></tr>
-            <tr><td>SAMSUNG</td><td>A20</td><td>68 GB</td></tr>
-            <tr><td>SAMSUNG</td><td>A128</td><td>128 GB</td></tr>
-            <tr><td>SAMSUNG</td><td>A128</td><td>128 GB</td></tr>
-          </table>
-        </div>
-    </div>
+  <div class="container-fluid">
+    <h1>forms</h1>
+    <form>
+      <label for="email">Email:</label> 
+      <input type="email" name="email" placeholder="email" id="email" class="form-control">
+      <label for="password">password:</label>
+      <input type="password" name="password" id="password" class="form-control" placeholder="type your password">
+      <button type="submit" class="btn btn-default">login</button>
+    </form>
+  </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
     </script>
 
